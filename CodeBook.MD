@@ -2,18 +2,25 @@
 
 # Step 1
 
- Read and merge the Data. 
+ Read and merge the Data. Assign column names.
 
- features.txt
- activity_labels.txt
- subject_train.txt
- x_train.txt
- y_train.txt
- subject_test.txt
- x_test.txt
- y_test.txt
+Data sets are :
 
-Assign column names.
+features_info.txt: Shows information about the variables used on the feature vector.
+
+features.txt: List of all features.
+
+activity_labels.txt: Links the class labels with their activity name.
+
+train/X_train.txt: Training set.
+
+train/y_train.txt: Training labels.
+
+test/X_test.txt: Test set.
+
+test/y_test.txt: Test labels.
+
+
 
 # Step 2
 Extract the measurements on the mean and standard deviation for each measurement.
